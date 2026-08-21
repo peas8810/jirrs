@@ -1,0 +1,36 @@
+{
+  "journal": "Journal International Review of Research Studies",
+  "journal_acronym": "JIRRS",
+  "widget_title": "TOP 4 ARTICLES",
+  "subtitle": "PlumX Metrics/Elsevier",
+  "articles": [
+    {
+      "rank": 1,
+      "title": "Open Source vs. Proprietary Software",
+      "article_url": "https://jirrs.org.uk/jirrs/article/view/5868",
+      "doi": "10.66104/hnyd5f72",
+      "plumx_url": "https://plu.mx/plum/a/?doi=10.66104%2Fhnyd5f72"
+    },
+    {
+      "rank": 2,
+      "title": "Data Storytelling in Intelligent Analytics Systems: From Visualization to Decision Intelligence",
+      "article_url": "https://jirrs.org.uk/jirrs/article/view/5879",
+      "doi": "10.66104/5qrbn316",
+      "plumx_url": "https://plu.mx/plum/a/?doi=10.66104%2F5qrbn316"
+    },
+    {
+      "rank": 3,
+      "title": "The Role of Game Engines in the Democratization of Digital Game Development",
+      "article_url": "https://jirrs.org.uk/jirrs/article/view/5713",
+      "doi": "10.66104/8yn0e657",
+      "plumx_url": "https://plu.mx/plum/a/?doi=10.66104%2F8yn0e657"
+    },
+    {
+      "rank": 4,
+      "title": "Tokens as Computational Units in Data Science and Machine Learning: Mathematical Foundations, Transformer Architecture, Inference Economy, and Caching Systems in Foundational Models",
+      "article_url": "https://jirrs.org.uk/jirrs/article/view/5717",
+      "doi": "10.66104/kxf7hk05",
+      "plumx_url": "https://plu.mx/plum/a/?doi=10.66104%2Fkxf7hk05"
+    }
+  ]
+}
