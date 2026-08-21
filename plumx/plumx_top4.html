@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Top JIRRS articles according to PlumX Metrics">
+  <title>PlumX Metrics - Top 4 JIRRS Articles</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: transparent; }
+    body {
+      color: #333;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .widget-container {
+      width: 100%;
+      padding: 15px;
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+    }
+    .widget-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 15px;
+      padding-bottom: 8px;
+      color: #555;
+      border-bottom: 1px solid #eee;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .plumx-logo-text { font-weight: 600; text-transform: none; white-space: nowrap; }
+    .article-item {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px dashed #f0f0f0;
+    }
+    .article-item:last-of-type { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
+    .article-info { flex: 1; min-width: 0; padding-right: 10px; }
+    .article-rank { margin-right: 5px; color: #0056b3; font-weight: 700; }
+    .article-title {
+      display: -webkit-box;
+      overflow: hidden;
+      color: #222;
+      text-decoration: none;
+      font-size: 13px;
+      line-height: 1.4;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+    }
+    .article-title:hover, .article-title:focus { color: #0056b3; text-decoration: underline; }
+    .article-metrics {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      min-width: 80px;
+    }
+    .update-info { margin-top: 12px; color: #888; font-size: 11px; text-align: right; }
+    .plumx-plum-print-popup { border: 0 !important; text-decoration: none !important; }
+    @media (max-width: 380px) {
+      .widget-container { padding: 12px; }
+      .article-metrics { width: 65px; min-width: 65px; }
+      .article-title { font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="widget-container" aria-label="Most popular JIRRS articles">
+    <header class="widget-header">
+      <span>Top 4 Articles</span>
+      <span class="plumx-logo-text">PlumX Metrics</span>
+    </header>
+
+    <article class="article-item">
+      <div class="article-info">
+        <a class="article-title" href="https://jirrs.org.uk/jirrs/article/view/5868" target="_parent">
+          <span class="article-rank">1.</span>Open Source vs. Proprietary Software
+        </a>
+      </div>
+      <div class="article-metrics">
+        <a href="https://plu.mx/plum/a/?doi=10.66104%2Fhnyd5f72" class="plumx-plum-print-popup" data-hide-when-empty="true" data-site="plum" data-size="medium" aria-label="View PlumX Metrics for article 1"></a>
+      </div>
+    </article>
+
+    <article class="article-item">
+      <div class="article-info">
+        <a class="article-title" href="https://jirrs.org.uk/jirrs/article/view/5879" target="_parent">
+          <span class="article-rank">2.</span>Data Storytelling in Intelligent Analytics Systems: From Visualization to Decision Intelligence
+        </a>
+      </div>
+      <div class="article-metrics">
+        <a href="https://plu.mx/plum/a/?doi=10.66104%2F5qrbn316" class="plumx-plum-print-popup" data-hide-when-empty="true" data-site="plum" data-size="medium" aria-label="View PlumX Metrics for article 2"></a>
+      </div>
+    </article>
+
+    <article class="article-item">
+      <div class="article-info">
+        <a class="article-title" href="https://jirrs.org.uk/jirrs/article/view/5713" target="_parent">
+          <span class="article-rank">3.</span>The Role of Game Engines in the Democratization of Digital Game Development
+        </a>
+      </div>
+      <div class="article-metrics">
+        <a href="https://plu.mx/plum/a/?doi=10.66104%2F8yn0e657" class="plumx-plum-print-popup" data-hide-when-empty="true" data-site="plum" data-size="medium" aria-label="View PlumX Metrics for article 3"></a>
+      </div>
+    </article>
+
+    <article class="article-item">
+      <div class="article-info">
+        <a class="article-title" href="https://jirrs.org.uk/jirrs/article/view/5717" target="_parent">
+          <span class="article-rank">4.</span>Tokens as Computational Units in Data Science and Machine Learning: Mathematical Foundations, Transformer Architecture, Inference Economy, and Caching Systems in Foundational Models
+        </a>
+      </div>
+      <div class="article-metrics">
+        <a href="https://plu.mx/plum/a/?doi=10.66104%2Fkxf7hk05" class="plumx-plum-print-popup" data-hide-when-empty="true" data-site="plum" data-size="medium" aria-label="View PlumX Metrics for article 4"></a>
+      </div>
+    </article>
+
+    <div class="update-info">Last updated: <span id="update-date"></span></div>
+  </main>
+
+  <script>
+    document.getElementById("update-date").textContent =
+      new Intl.DateTimeFormat("en-US", { month: "short", year: "numeric" }).format(new Date());
+  </script>
+  <script src="https://cdn.plu.mx/widget-popup.js"></script>
+</body>
+</html>
